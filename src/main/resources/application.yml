@@ -1,0 +1,29 @@
+
+# ================== datasource ==================
+datasource:
+
+  user:
+    host: 127.0.0.1
+    port: 3306
+    database-name: test
+    username: test
+    password: test
+    connection-timeout: 10s
+    pool-name: userDbPool
+    initial-size: 2
+    max-size: 20
+    max-idle-time: 10s
+    max-life-time: 30s
+
+  channel:
+    host: xxx
+    port: 3306
+    database-name: xxx
+    username: user
+    password: password
+    connection-timeout: 10s
+    pool-name: channelReadDbPool
+    initial-size: 2
+    max-size: 20
+    max-idle-time: 10s
+    max-life-time: 30s
